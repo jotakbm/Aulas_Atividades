@@ -3,6 +3,12 @@ using UnityEngine;
 
 namespace Atividades.Variables02
 {
+    public class ValueActivity01 : MonoBehaviour
+    {
+        public int valor01 = 1;
+        public int valor02 = 2;
+    }
+
     // Defina o tipo de cada coisa: [Variavel (comum, parametro, variavel local)], [Propriedade], [Metodo], [Classe], [Struct]
     public class VarActivity02 : MonoBehaviour
     {

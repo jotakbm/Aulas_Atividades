@@ -252,6 +252,7 @@ namespace Atividades.MethodsResults01
 
         #region Prova01
         // 1 - Responda qual, ou quais (caso haja mais de um) valores de Debug apareceriam caso o código abaixo fosse executado no Start.
+        [ContextMenu("Exam")]
         public void Exam01()
         {
             int valor1 = 1;
@@ -345,7 +346,6 @@ namespace Atividades.MethodsResults01
             {
                 Debug.Log($"Nenhum caso correto");
             }
-            // Caso03.B[17]
         }
         #endregion
     }
